@@ -1,0 +1,134 @@
+<div class="row">
+    <div class="col-6">
+        <div id="blob"></div>
+        <svg id="makeItSimple"></svg>
+        <div id="rectangle"></div>
+        <img id="videoImage">
+        <div id="dot"></div>
+        
+    </div>
+    <div class="col-6">
+        <svg id="circle">
+        </svg>
+            <div class="card">
+                <div class="card-header">
+                  Eligibilty Calculator
+                </div>
+                <div class="card-body font-class">
+                  <form>
+                      <div class="form-group">
+                        <label for="monthlyIncome"><strong>Monthly Income</strong></label>
+                        <br>
+                        <div>{{rangeValue  | currency:'INR'}}</div>
+                        <input type="range" id="monthlyIncome" min="100000" max="300000" #monthlyIncome (change)="sliderValue(monthlyIncome.value)">
+                        <span id="minId" >{{min | currency:'INR'}}</span><span id="maxId">{{max  | currency:'INR'}}</span>                       
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <label for="monthlyExpense"><strong>Monthly Expense</strong></label>
+                        <br>
+                        <div>{{rangeValueExpense  | currency:'INR'}}</div>
+                        <input type="range" id="monthlyExpense" min="100000" max="300000" #monthlyExpense (change)="sliderValueExpense(monthlyExpense.value)">                 
+                      </div>
+                      <div class="form-group" >
+                        <label for="repaymentTenure"><strong>Repayment Tenure</strong></label>
+                        <br>
+                        <select class="form-select" aria-label="Repayment tenure" >
+                            <option *ngFor="let emi of emiTenure" [value]="emi.id">{{emi.months + ' Months'}}</option>
+                          </select>               
+                      </div>
+                      <div class="form-group" >
+
+                        <!-- <label for="checkbox" class="switch">Do you have any existing loans?  </label>
+                        <input type="checkbox" class="checkbox">
+                        <div class="slider-round"></div> -->
+                        <label for="checkbox">Do you have any existing loans?  </label>
+                        <label class="switch"> 
+                          <input type="checkbox" id="checkbox" checked>
+                          <span class="slider round"></span>
+                        </label>
+                       
+
+                        <label for="existingLoan"><strong>Emi of existing loan(optional)</strong></label>
+                        <br>
+                        <input type="text" id="existingLoan" placeholder="₹ 15000">              
+                      </div>
+                  </form>
+                </div>
+            </div>
+        <div class="bkGround">
+                <div class="row loan-amount">
+                    Loan Amount
+                    <br>
+                    {{loanAmount | currency:'INR' }}
+                    <br>
+                    Your EMI will be?
+                    {{emi | currency : 'INR'}}
+                </div>
+                <button id="getMoney"><span id="getMoneyText">Get Money</span></button>
+        </div>
+        <svg id="dot-right-svg"></svg>
+
+            
+        
+
+    </div>
+</div>
+
+<div class="row">
+  <svg id="backgroundLower"></svg>
+<div id="tile1">
+  <div id="rectange23"> </div> 
+  <svg id="getPaid"></svg>
+  <div id="quickCash">Quick cash disbursement</div>
+  <div id="getLoanTerm">Get terms loans that your business needs within 72 hrs </div>
+  
+</div>
+
+<div>
+  <svg id="rectange19"></svg>
+  <svg id="lowInterestIcon"> </svg>
+  <div id="lowInterestTitle">Low-interest rate</div>
+  <div id="lowInterest">Achieve your financial goals with an amazing interest rate starting at 13% per annum</div>
+</div>
+
+<div>
+  <svg id="rectangle17"></svg>
+  <svg id="zeroPaperWorkIcon"></svg>
+  <div id="zeroPaperWorkTitle">Zero Paperwork</div>
+  <div id="zeroPaperWork">Get started instantly by submitting only your basic details & bank statements</div>
+</div>
+
+<div>
+  <svg id="rectangle2"></svg>
+  <svg id="businessFinanceIcon"></svg>
+  <div id="businessFinanceTitle">Ace your business finances</div>
+  <div id="businessFinance">Manage banking, accounting & everything in between, on one platform</div>
+</div>
+<div>
+  <svg id="rectange25"></svg>
+  <svg id="covidIcon"></svg>
+  <div id="covidTitle">Loans to fight COVID-19</div>
+  <div id="covidDesc">Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh</div>
+</div>
+<div>
+  <svg id='boostText'></svg>
+  <svg id="line3"></svg>
+  <svg id="getHandsOn"></svg>
+  <button id="openAccountBtn"><span id="openAccountText">Get an Open Account</span></button>
+</div>
+
+</div>
+
+
+
+
+
+
+ 
+
+
+
+
+
+   

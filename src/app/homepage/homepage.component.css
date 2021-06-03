@@ -1,0 +1,595 @@
+#makeItSimple{
+    position: absolute;
+    top: 270px;
+    left: 189px;
+    width: 407px;
+    height: 98px;
+    background: transparent url('../../assets/images/simple.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#videoImage{
+    position: absolute;
+    top: 466px;
+    left: 136px;
+    width: 652px;
+    height: 365px;
+    background: transparent url('../../assets/images/collect_img-video.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#rectangle{
+    position: absolute;
+    top: 376px;
+    left: 192px;
+    width: 236px;
+    height: 8px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+}
+
+#blob{
+    position: absolute;
+    top: 213px;
+    left: -179px;
+    width: 571px;
+    height: 572px;
+    background: transparent url('../../assets/images/blob-small.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#dotGrid{
+    position: absolute;
+    top: 796px;
+    left: 462px;
+    width: 430px;
+    height: 70px;
+    opacity: 0.5;
+}
+
+
+
+#dot{
+    position: absolute;
+    top: 796px;
+    left: 462px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('../../assets/images/accounting_dots.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+#circle{
+    position: absolute;
+    top: -227.9068603515625px;
+    left: 852px;
+    width: 1183px;
+    height: 1192px;
+    transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+    background: transparent url('../../assets/images/circle.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+
+.card{
+    position: absolute;
+    top: 270px;
+    left: 1100px;
+    width: 488px;
+    height: 675px;
+    opacity: 1;
+}
+.card{
+    border-radius: 30px 30px 0px 0px;
+    
+}
+.card-header{
+    text-align: center;
+}
+
+.form-group{
+    margin: 20px;
+}
+
+#monthlyIncome{
+    width: 400px;
+}
+
+#minId{
+    float: left;
+}
+#maxId{
+    float: right;
+}
+#monthlyExpense{
+    width: 400px;
+}
+
+.font-class{
+    font-family: Montserrat-Medium;
+    font-size: 25px;
+}
+
+.bkGround{
+    position: absolute;
+    top: 360px;
+    left: 1588px;
+    width: 200px;
+    height: 470px;
+    background-color: #663299;
+    opacity: 1;
+    border-radius: 0 20px 20px 0px;
+    color : #FFF;
+    font-family: Montserrat-Medium;
+    
+}
+
+.loan-amount{
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    width: 160px;
+    opacity: 1;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    margin : 80px 6px 80px 6px;
+}
+
+
+#getMoney{
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1;
+    color : #663399;
+}
+#getMoney:hover{
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1;
+    color : #FFF;
+    background-color: #663399 ;
+}
+
+
+#dot-right-svg{
+    position: absolute;
+    top: 936px;
+    left: 1458px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('../../assets/images/accounting_dots.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+#backgroundLower{
+    position: absolute;
+    top: 1209px;
+    left: 0.0001220703125px;
+    width: 1920px;
+    height: 936px;
+    background: transparent url('../../assets/images/sol_wave_bg.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#rectange23{
+    position: absolute;
+    top: 1137px;
+    left: 191px;
+    width: 391px;
+    height: 253px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px ;
+    background:  white 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#rectange23:hover{
+    position: absolute;
+    top: 1137px;
+    left: 191px;
+    width: 391px;
+    height: 253px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px ;
+    background : #854fb2 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+}
+#rectange19{
+    position: absolute;
+    top: 1450px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    background:  white 0% 0% no-repeat padding-box;
+    
+}
+#rectange19:hover{
+    position: absolute;
+    top: 1450px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background:#854fb2 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+#rectangle17{
+    position: absolute;
+    top: 1786px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    background: whitesmoke 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+#rectangle17:hover{
+    position: absolute;
+    top: 1786px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    background: #854fb2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#rectangle2{
+    position: absolute;
+    top: 1261px;
+    left: 630px;
+    width: 390px;
+    height: 272px;
+    background:white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+
+}
+#rectangle2:hover{
+    position: absolute;
+    top: 1261px;
+    left: 630px;
+    width: 390px;
+    height: 272px;
+    background:#854fb2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+#rectange25{
+    position: relative;
+    top: 1593px;
+    left: 630px;
+    width: 390px;
+    height: 253px;
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+
+}
+#rectange25:hover{
+    position: relative;
+    top: 1593px;
+    left: 630px;
+    width: 390px;
+    height: 253px;
+    background:#854fb2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+#boostText{
+    position: absolute;
+    top: 1377px;
+    left: 1158px;
+    width: 490px;
+    height: 98px;
+    background: transparent url('../../assets/images/Boost your business.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#line3{
+    position: absolute;
+    top: 1528px;
+    left: 1158px;
+    width: 120px;
+    height: 0px;
+    background: transparent url('../../assets/images/Line 3.svg') 0% 0% no-repeat padding-box;
+    border: 6px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+#getHandsOn{
+    position: absolute;
+    top: 1561px;
+    left: 1158px;
+    width: 490px;
+    height: 44px;
+    background: transparent url('../../assets/images/Get your hands on a.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#openAccountBtn{
+    position: absolute;
+    top: 1686px;
+    left: 1158px;
+    width: 279px;
+    height: 58px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+    background: transparent;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+}
+#openAccountBtn:hover{
+    position: absolute;
+    top: 1686px;
+    left: 1158px;
+    width: 279px;
+    height: 58px;
+    box-shadow: 0px 0px 20px #a79a9a33;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+    color : #FFF;
+    background-color : #854fb2;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    letter-spacing: 0px;
+    
+}
+
+
+#getPaid{
+    position: absolute;
+    top: 1171px;
+    left: 225px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('../../assets/images/Get Paid Instantly.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1000;
+}
+#quickCash{
+    position: absolute;
+    top: 1280px;
+    left: 225px;
+    width: 323px;
+    height: 19px;
+    font-family: Montserrat-SemiBold;
+    font-weight: bolder;
+    color: black;
+}
+
+#getLoanTerm{
+    position: absolute;
+    top: 1310px;
+    left: 225px;
+    width: 323px;
+    height: 38px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    color: grey;
+}
+
+#lowInterestIcon{
+    position: absolute;
+    top: 1484px;
+    left: 225px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('../../assets/images/Low interest rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#lowInterestTitle{
+    position: absolute;
+    top: 1593px;
+    left: 225px;
+    width: 323px;
+    height: 19px;
+    font-family: Montserrat-SemiBold;
+    font-weight: bolder;
+    color: black;
+}
+#lowInterest{
+    position: absolute;
+    top: 1624px;
+    left: 225px;
+    width: 323px;
+    height: 57px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    color: grey;
+}
+
+#zeroPaperWorkIcon{
+    position: absolute;
+    top: 1820px;
+    left: 224px;
+    width: 91px;
+    height: 90px;
+    background: transparent url('../../assets/images/Secure Payments.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#zeroPaperWorkTitle{
+    position: absolute;
+    top: 1929px;
+    left: 225px;
+    width: 323px;
+    height: 19px;
+    font-family: Montserrat-SemiBold;
+    font-weight: bolder;
+    color: black;
+
+}
+#zeroPaperWork{
+    position: absolute;
+    top: 1960px;
+    left: 225px;
+    width: 323px;
+    height: 38px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    color: grey;
+}
+
+#businessFinanceIcon{
+    position: absolute;
+    top: 1291px;
+    left: 664px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('../../assets/images/freelancer_feature_icon_6@1.5x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1000;
+}
+#businessFinanceTitle{
+    position: absolute;
+    top: 1401px;
+    left: 663px;
+    width: 323px;
+    height: 19px;
+    font-family: Montserrat-SemiBold;
+    font-weight: bolder;
+    color: black;
+}
+#businessFinance{
+    position: absolute;
+    top: 1431px;
+    left: 663px;
+    width: 323px;
+    height: 38px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    color: grey;
+}
+#covidIcon{
+    position: absolute;
+    top: 1627px;
+    left: 663px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('../../assets/images/Covid.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#covidTitle{
+    position: absolute;
+    top: 1737px;
+    left: 663px;
+    width: 323px;
+    height: 19px;
+    font-family: Montserrat-SemiBold;
+    font-weight: bolder;
+    color: black;
+}
+#covidDesc{
+    position: absolute;
+    top: 1767px;
+    left: 663px;
+    width: 323px;
+    height: 38px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    color: grey;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left : 10px
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #854fb2 ;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

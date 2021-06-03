@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: ;
+    src: url(assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: ;
+    src: url(assets/fonts/Montserrat/Montserrat-Medium.ttf) format("opentype");
+  }

@@ -1,0 +1,126 @@
+.navFix{
+    position: fixed;
+    height: 140px;
+    z-index: 2000;
+    background-color: no-repeat white;
+}
+
+#logo{
+    position: absolute;
+    top: 27px;
+    left: 120px;
+    width: 123px;
+    height: 123px;
+    background: transparent url("../../assets/logo/logo@2x.png") 0% 0% repeat padding-box;
+    opacity: 1;
+}
+
+#product{
+    position: absolute;
+    top: 68px;
+    left: 1030px;
+    width: 103px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+#solution{
+    position: absolute;
+    top: 68px;
+    left: 1183px;
+    width: 108px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+#pricing{
+    position: absolute;
+    top: 68px;
+    left: 1341px;
+    width: 79px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+
+#login{
+    position: fixed;
+    top: 63px;
+    left: 1480px;
+    width: 118px;
+    height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #663399;
+
+
+}
+
+#login:hover{
+    position: fixed;
+    top: 63px;
+    left: 1480px;
+    width: 118px;
+    height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #fff;
+    background-color: #663399;
+
+
+}
+
+
+
+
+#getStarted{
+    position: absolute;
+    top: 63px;
+    left: 1622px;
+    width: 166px;
+    height: 45px;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+#getStarted:hover{
+   
+    text-align: center;
+    letter-spacing: 0px;
+    background-color: #fff;
+    
+}
+
+
+
+
+
